@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="ConfoundingFactors">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="MetalLevel_2">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>ConfoundingFactors</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Metabolite_2">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>MetalLevel_2</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="ExpressionOfSomeHealthMarker_2">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>MetalLevel_2 Metabolite_2 ConfoundingFactors</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 3.0.6128.0 ACADEMIC" name="Network1">
+			<node id="ExpressionOfSomeHealthMarker_2">
+				<name>ExpressionOfSomeHealthMarker</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>286 476 654 742</position>
+			</node>
+			<node id="MetalLevel_2">
+				<name>MetalLevel</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>69 127 276 274</position>
+			</node>
+			<node id="Metabolite_2">
+				<name>Metabolite</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>610 174 833 335</position>
+			</node>
+			<node id="ConfoundingFactors">
+				<name>ConfoundingFactors</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>358 14 568 147</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>

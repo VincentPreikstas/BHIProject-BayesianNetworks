@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knowledge version="1.0">
+	<tier index="0" width="320" />
+	<tier index="1" width="160" />
+	<tier index="2" width="150" />
+	<tier index="3" width="160" />
+	<tier index="4" width="160" />
+	<tier index="5" width="160" />
+	<variable id="Subnum" position="10 18 82 54" />
+	<variable id="Cd" tier="2" position="47 84 119 120" />
+	<variable id="gender 1 = Male, 2 = Female" tier="1" position="45 72 117 108" />
+	<variable id="race 1 = African American, 2 = Caucasion" tier="1" position="37 236 109 272" />
+	<variable id="childage" tier="1" position="37 182 109 218" />
+	<variable id="sesscore" tier="1" position="41 129 113 165" />
+	<variable id="Height" tier="1" position="38 329 110 365" />
+	<variable id="Weight" tier="1" position="48 349 120 385" />
+	<variable id="bmipct" tier="1" position="45 360 117 396" />
+	<variable id="rawbmi" tier="1" position="55 418 127 454" />
+	<variable id="SMK1c" tier="1" position="60 472 132 508" />
+	<variable id="SMK1" tier="1" position="55 525 127 561" />
+	<variable id="TCmgdL (Total cholesterol measured in milligrams per decilitre)" tier="3" position="32 845 104 881" />
+	<variable id="HDLmgdL (High density lipoprotiens measured in milligrams per decilitre)" tier="3" position="87 807 159 843" />
+	<variable id="nonHDLmgdL (Non high density lipoproteins measured in milligrams per decilitre)" tier="3" position="55 714 127 750" />
+	<variable id="GlumgdL (Glucose measured in milligrams per decilitre)" tier="3" position="41 885 113 921" />
+	<variable id="Alanine" tier="3" position="44 953 116 989" />
+	<variable id="Sarcosine" tier="3" position="66 890 138 926" />
+	<variable id="Glycine" tier="3" position="62 1041 134 1077" />
+	<variable id="alpha_aminoisobutyric_acid" tier="3" position="20 1056 92 1092" />
+	<variable id="Valine" tier="3" position="62 1127 134 1163" />
+	<variable id="Leucine" tier="3" position="13 1160 85 1196" />
+	<variable id="Isoleucine" tier="3" position="43 1084 115 1120" />
+	<variable id="Threonine" tier="3" position="28 54 100 90" />
+	<variable id="Serine" tier="3" position="10 96 82 132" />
+	<variable id="Proline" tier="3" position="36 118 108 154" />
+	<variable id="Asparagine" tier="3" position="21 150 93 186" />
+	<variable id="Aspartic_Acid" tier="3" position="53 197 125 233" />
+	<variable id="Methionine" tier="3" position="33 231 105 267" />
+	<variable id="Glutamic_Acid" tier="3" position="19 253 91 289" />
+	<variable id="Phenylalanine" tier="3" position="40 288 112 324" />
+	<variable id="Glutamine" tier="3" position="58 424 130 460" />
+	<variable id="Ornithine" tier="3" position="57 578 129 614" />
+	<variable id="Lysine" tier="3" position="61 711 133 747" />
+	<variable id="Histidine" tier="3" position="45 660 117 696" />
+	<variable id="Tyrosine" tier="3" position="52 461 124 497" />
+	<variable id="Typtophan" tier="3" position="68 808 140 844" />
+	<variable id="Stearicacid" tier="3" position="44 772 116 808" />
+	<variable id="Oleicacid" tier="3" position="82 789 154 825" />
+	<variable id="Hexoseglucoseetc" tier="3" position="41 670 113 706" />
+	<variable id="Palmiticacid" tier="3" position="18 999 90 1035" />
+	<variable id="Creatine" tier="3" position="85 727 157 763" />
+	<variable id="Hypoxanthine" tier="3" position="64 537 136 573" />
+	<variable id="Gluconate" tier="3" position="84 807 156 843" />
+	<variable id="IMP" tier="3" position="64 624 136 660" />
+	<variable id="AMP" tier="3" position="50 502 122 538" />
+	<variable id="UDPNacetylDglucosamine" tier="3" position="67 390 139 426" />
+	<variable id="AMP_A" tier="3" position="40 338 112 374" />
+	<variable id="FAD" tier="3" position="69 751 141 787" />
+	<variable id="FBP" tier="3" position="65 713 137 749" />
+	<variable id="NADH" tier="3" position="68 761 140 797" />
+	<variable id="NADP" tier="3" position="83 811 155 847" />
+	<variable id="Phosphoenolpyruvate" tier="3" position="82 807 154 843" />
+	<variable id="s7P" tier="3" position="57 829 129 865" />
+	<variable id="SUCResults" tier="3" position="39 1183 111 1219" />
+	<variable id="MALResults" tier="3" position="62 1236 134 1272" />
+	<variable id="@6PGResults" tier="3" position="68 931 140 967" />
+	<variable id="CITICITResults" tier="3" position="30 904 102 940" />
+	<variable id="ADPResults" tier="3" position="25 854 97 890" />
+	<variable id="ATPResults" tier="3" position="48 798 120 834" />
+	<variable id="Cortisol" tier="3" position="15 1130 87 1166" />
+	<variable id="Cortisone" tier="3" position="76 860 148 896" />
+	<variable id="@11Deoxycortisol" tier="3" position="85 849 157 885" />
+	<variable id="Corticosterone" tier="3" position="58 1002 130 1038" />
+	<variable id="@18Hydroxycortisol" tier="3" position="4 939 76 975" />
+	<variable id="HeartRate" tier="4" position="60 895 132 931" />
+	<variable id="EAratio" tier="4" position="87 864 159 900" />
+	<variable id="irestHR" tier="4" position="62 819 134 855" />
+	<variable id="irestSV" tier="4" position="78 904 150 940" />
+	<variable id="irestLVET" tier="4" position="48 1025 120 1061" />
+	<variable id="mrhr" tier="4" position="73 990 145 1026" />
+	<variable id="rtsbp" tier="4" position="71 944 143 980" />
+	<variable id="ninehr" tier="4" position="66 723 138 759" />
+	<variable id="dfnineDBP" tier="4" position="82 785 154 821" />
+	<variable id="dfninetpr" tier="4" position="50 980 122 1016" />
+	<variable id="dfninemap" tier="4" position="24 575 96 611" />
+	<variable id="meanaci" tier="4" position="28 619 100 655" />
+	<variable id="dbtsdsd" tier="4" position="48 671 120 707" />
+	<variable id="dbtrmssd" tier="4" position="75 1086 147 1122" />
+	<variable id="dmtlfhf" tier="4" position="87 932 159 968" />
+	<variable id="drtvlf" tier="4" position="39 1050 111 1086" />
+	<variable id="regdrthf" tier="4" position="77 1099 149 1135" />
+	<variable id="dsci2lfhf" tier="4" position="68 743 140 779" />
+	<variable id="dsci3pnn50" tier="4" position="65 522 137 558" />
+	<variable id="dsci3lfhf" tier="4" position="85 1186 157 1222" />
+	<variable id="dsci4se" tier="4" position="62 1272 134 1308" />
+	<variable id="dsci4nn50cnt" tier="4" position="86 1212 158 1248" />
+	<variable id="dsci4pnn50" tier="4" position="76 1252 148 1288" />
+	<variable id="dsci4lf" tier="4" position="87 1269 159 1305" />
+	<variable id="dsci4hf" tier="4" position="73 1182 145 1218" />
+	<variable id="dsci4total" tier="4" position="75 1250 147 1286" />
+	<variable id="zregdrthf" tier="4" position="73 1314 145 1350" />
+	<variable id="zregdmthf" tier="4" position="87 1276 159 1312" />
+	<variable id="PSp" tier="4" position="67 1170 139 1206" />
+	<variable id="RoundCBCLattmean" tier="4" position="87 1148 159 1184" />
+	<variable id="CBCLtscore" tier="4" position="60 1128 132 1164" />
+	<variable id="DEP_AffR" tier="4" position="87 1332 159 1368" />
+	<variable id="MirrorPer" tier="4" position="67 1232 139 1268" />
+	<variable id="FACntAvg" tier="4" position="66 1090 138 1126" />
+	<variable id="rthr" tier="4" position="86 1210 158 1246" />
+	<variable id="RoundCBCLtpmean" tier="4" position="58 1134 130 1170" />
+</knowledge>

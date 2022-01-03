@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="TestDataSetSmall" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="sesscore">
+			<state id="s1_below_0" />
+			<state id="s2_0_0" />
+			<state id="s3_0_up" />
+			<probabilities>0.32560706401766 0.3454746136865342 0.3289183222958057</probabilities>
+		</cpt>
+		<cpt id="Cd">
+			<state id="s1_below_0" />
+			<state id="s2_0_0" />
+			<state id="s3_0_up" />
+			<parents>sesscore</parents>
+			<probabilities>0.3063973063973064 0.2962962962962963 0.3973063973063974 0.3555555555555556 0.3460317460317461 0.2984126984126984 0.3133333333333334 0.4133333333333334 0.2733333333333333</probabilities>
+		</cpt>
+		<cpt id="Sarcosine">
+			<state id="s1_below_3" />
+			<state id="s2_3_4" />
+			<state id="s3_4_up" />
+			<parents>Cd</parents>
+			<probabilities>0.2154882154882155 0.6094276094276095 0.1750841750841751 0.2180685358255451 0.5451713395638629 0.2367601246105919 0.227891156462585 0.5136054421768708 0.2585034013605442</probabilities>
+		</cpt>
+		<cpt id="SystolicBP">
+			<state id="s1_below_105" />
+			<state id="s2_105_114" />
+			<state id="s3_114_up" />
+			<parents>Cd sesscore Sarcosine</parents>
+			<probabilities>0.04761904761904762 0.3333333333333333 0.619047619047619 0.3166666666666667 0.3666666666666667 0.3166666666666667 0.2222222222222222 0.2222222222222222 0.5555555555555556 0.1904761904761905 0.4761904761904762 0.3333333333333333 0.2638888888888888 0.3888888888888889 0.3472222222222222 0.03703703703703703 0.3703703703703703 0.5925925925925926 0.5333333333333333 0.2333333333333334 0.2333333333333334 0.2280701754385965 0.4912280701754386 0.2807017543859649 0.4666666666666667 0.2666666666666667 0.2666666666666667 0.2222222222222222 0.3888888888888889 0.3888888888888889 0.3137254901960784 0.4313725490196078 0.2549019607843137 0.2592592592592592 0.3703703703703703 0.3703703703703703 0.2592592592592592 0.3703703703703703 0.3703703703703703 0.3333333333333333 0.4242424242424243 0.2424242424242424 0.4166666666666668 0.5416666666666667 0.04166666666666667 0.6666666666666666 0.0303030303030303 0.303030303030303 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.2121212121212121 0.303030303030303 0.4848484848484849 0.04761904761904762 0.3333333333333333 0.619047619047619 0.5362318840579711 0.2753623188405797 0.1884057971014493 0.361111111111111 0.2777777777777778 0.361111111111111 0.0303030303030303 0.3939393939393939 0.5757575757575758 0.3555555555555555 0.2222222222222222 0.4222222222222222 0.04166666666666666 0.4166666666666667 0.5416666666666666 0.1904761904761905 0.4761904761904762 0.3333333333333333 0.1555555555555556 0.5555555555555556 0.2888888888888889 0.1666666666666667 0.4166666666666667 0.4166666666666667</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 3.0.6128.0 ACADEMIC" name="TestDataSetSmall">
+			<node id="Cd">
+				<name>Cd</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>86 189 158 237</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="sesscore">
+				<name>sesscore</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>376 39 448 87</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="SystolicBP">
+				<name>SystolicBP</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>385 390 457 438</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Sarcosine">
+				<name>Sarcosine</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>680 181 752 229</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<textbox>
+				<caption>Input file: TestDataSetSmall.csv\nData rows: 301\nElapsed time: 0.031s\n\nLearning algorithm: PC\nAlgorithm parameters:\nMax adjacency: 8\nSignificance: 0.05\nMax search time: 0\nNo background knowledge\n\nEM Log Likelihood: -1288.85</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>10 285 160 453</position>
+			</textbox>
+		</genie>
+	</extensions>
+</smile>

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="NormalizedTestDataSet" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="gender_1___Male__2___Female">
+			<state id="State1" />
+			<state id="State2" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Cd">
+			<state id="x_108406" />
+			<state id="s1_below_0" />
+			<state id="s2_0_0" />
+			<state id="s3_0_up" />
+			<parents>gender_1___Male__2___Female</parents>
+			<probabilities>0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="Pb">
+			<state id="x_05089" />
+			<state id="s1_below_0" />
+			<state id="s2_0_1" />
+			<state id="s3_1_up" />
+			<probabilities>0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="Hg">
+			<state id="x_373757" />
+			<state id="s1_below_0" />
+			<state id="s2_0_0" />
+			<state id="s3_0_up" />
+			<probabilities>0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="race_1___African_American__2___Caucasion">
+			<state id="State1" />
+			<state id="State2" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="childage">
+			<state id="x0_478" />
+			<state id="s1_below_9" />
+			<state id="s2_9_10" />
+			<state id="s3_10_up" />
+			<probabilities>0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="sesscore">
+			<state id="x_0631403" />
+			<state id="s1_below_0" />
+			<state id="s2_0_0" />
+			<state id="s3_0_up" />
+			<probabilities>0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="Height">
+			<state id="x44" />
+			<state id="s1_below_141" />
+			<state id="s2_141_148" />
+			<state id="s3_148_up" />
+			<probabilities>0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="Weight">
+			<state id="x4_6946" />
+			<state id="s1_below_35" />
+			<state id="s2_35_47" />
+			<state id="s3_47_up" />
+			<probabilities>0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="bmipct">
+			<state id="x8_4763" />
+			<state id="s1_below_59" />
+			<state id="s2_59_92" />
+			<state id="s3_92_up" />
+			<probabilities>0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="rawbmi">
+			<state id="x0_6644" />
+			<state id="s1_below_17" />
+			<state id="s2_17_22" />
+			<state id="s3_22_up" />
+			<probabilities>0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="PCAnum">
+			<state id="x_94937e_10" />
+			<state id="s1_below_999999808" />
+			<state id="s2_999999808_999999872" />
+			<state id="s3_999999872_up" />
+			<parents>Cd</parents>
+			<probabilities>0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="SystolicBP">
+			<state id="x10" />
+			<state id="s1_below_105" />
+			<state id="s2_105_114" />
+			<state id="s3_114_up" />
+			<parents>Cd</parents>
+			<probabilities>0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="DiastolicBP">
+			<state id="x2" />
+			<state id="s1_below_60" />
+			<state id="s2_60_66" />
+			<state id="s3_66_up" />
+			<parents>Cd</parents>
+			<probabilities>0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="LAsysDiam">
+			<state id="x_69283" />
+			<state id="s1_below_2" />
+			<state id="s2_2_2" />
+			<state id="s3_2_up" />
+			<parents>Cd</parents>
+			<probabilities>0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="AoAnnDiam">
+			<state id="x_79525" />
+			<state id="s1_below_1" />
+			<state id="s2_1_1" />
+			<state id="s3_1_up" />
+			<parents>Cd</parents>
+			<probabilities>0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="AoRootDiasDiam">
+			<state id="x_2481" />
+			<state id="s1_below_2" />
+			<state id="s2_2_2" />
+			<state id="s3_2_up" />
+			<parents>Cd</parents>
+			<probabilities>0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="TCmgdL__Total_cholesterol_measured_in_milligrams_per_decilitre_">
+			<state id="x57" />
+			<state id="s1_below_146" />
+			<state id="s2_146_166" />
+			<state id="s3_166_up" />
+			<probabilities>0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="HDLmgdL__High_density_lipoprotiens_measured_in_milligrams_per_decilitre_">
+			<state id="x5" />
+			<state id="s1_below_49" />
+			<state id="s2_49_60" />
+			<state id="s3_60_up" />
+			<probabilities>0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="nonHDLmgdL__Non_high_density_lipoproteins_measured_in_milligrams_per_decilitre_">
+			<state id="x01" />
+			<state id="s1_below_90" />
+			<state id="s2_90_109" />
+			<state id="s3_109_up" />
+			<probabilities>0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="GlumgdL__Glucose_measured_in_milligrams_per_decilitre_">
+			<state id="x0" />
+			<state id="s1_below_87" />
+			<state id="s2_87_92" />
+			<state id="s3_92_up" />
+			<probabilities>0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="Alanine">
+			<state id="x93_519" />
+			<state id="s1_below_342" />
+			<state id="s2_342_422" />
+			<state id="s3_422_up" />
+			<probabilities>0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="Sarcosine">
+			<state id="x_00761" />
+			<state id="s1_below_3" />
+			<state id="s2_3_4" />
+			<state id="s3_4_up" />
+			<probabilities>0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+		<cpt id="Glycine">
+			<state id="x08_678" />
+			<state id="s1_below_273" />
+			<state id="s2_273_328" />
+			<state id="s3_328_up" />
+			<probabilities>0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 3.0.6128.0 ACADEMIC" name="NormalizedTestDataSet">
+			<node id="Cd">
+				<name>Cd</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>80 143 152 191</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="Pb">
+				<name>Pb</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>62 375 134 423</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="Hg">
+				<name>Hg</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>60 261 132 309</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="gender_1___Male__2___Female">
+				<name>gender 1 = Male, 2 = Female</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>311 119 383 167</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="race_1___African_American__2___Caucasion">
+				<name>race 1 = African American, 2 = Caucasion</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>317 202 389 250</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="childage">
+				<name>childage</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>664 116 736 164</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="sesscore">
+				<name>sesscore</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>491 118 563 166</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="Height">
+				<name>Height</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>482 216 554 264</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="Weight">
+				<name>Weight</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>667 232 739 280</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="bmipct">
+				<name>bmipct</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>808 230 880 278</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="rawbmi">
+				<name>rawbmi</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>813 117 885 165</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="PCAnum">
+				<name>PCAnum</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>374 621 446 669</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="SystolicBP">
+				<name>SystolicBP</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>533 615 605 663</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="DiastolicBP">
+				<name>DiastolicBP</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>669 619 741 667</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="LAsysDiam">
+				<name>LAsysDiam</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>233 628 305 676</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="AoAnnDiam">
+				<name>AoAnnDiam</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>230 732 302 780</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="AoRootDiasDiam">
+				<name>AoRootDiasDiam</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>375 729 447 777</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="TCmgdL__Total_cholesterol_measured_in_milligrams_per_decilitre_">
+				<name>TCmgdL (Total cholesterol measured in milligrams per decilitre)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1316 286 1388 334</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="HDLmgdL__High_density_lipoprotiens_measured_in_milligrams_per_decilitre_">
+				<name>HDLmgdL (High density lipoprotiens measured in milligrams per decilitre)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1157 616 1229 664</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="nonHDLmgdL__Non_high_density_lipoproteins_measured_in_milligrams_per_decilitre_">
+				<name>nonHDLmgdL (Non high density lipoproteins measured in milligrams per decilitre)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1310 397 1382 445</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="GlumgdL__Glucose_measured_in_milligrams_per_decilitre_">
+				<name>GlumgdL (Glucose measured in milligrams per decilitre)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1309 510 1381 558</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="Alanine">
+				<name>Alanine</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1161 284 1233 332</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="Sarcosine">
+				<name>Sarcosine</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1157 506 1229 554</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="Glycine">
+				<name>Glycine</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1167 399 1239 447</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<textbox>
+				<caption>Input file: NormalizedTestDataSet.csv\nData rows: 298\nElapsed time: 0.046s\n\nLearning algorithm: PC\nAlgorithm parameters:\nMax adjacency: 8\nSignificance: 0.05\nMax search time: 0\nNo background knowledge</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>30 528 208 668</position>
+			</textbox>
+		</genie>
+	</extensions>
+</smile>
